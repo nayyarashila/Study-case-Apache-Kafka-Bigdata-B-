@@ -58,7 +58,7 @@ New-Item -Path "producer_kelembaban.py" -ItemType "File"
 
 ## 3. Konsumsi dan Olah Data dengan PySpark
 
-* Setup Pyspark
+### Setup Pyspark
 - Install Pyspark `pip install pyspark`
 - Buat file `New-Item -Path "consumer_filtering.py" -ItemType "File"`
 - Jalankan `python consumer_filtering.py`
