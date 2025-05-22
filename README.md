@@ -59,6 +59,23 @@ New-Item -Path "producer_kelembaban.py" -ItemType "File"
 ## 3. Konsumsi dan Olah Data dengan PySpark
 
 * Setup Pyspark
-Install Pyspark `pip install pyspark`
-Buat file `New-Item -Path "consumer_filtering.py" -ItemType "File"`
-Jalankan `python consumer_filtering.py`
+- Install Pyspark `pip install pyspark`
+- Buat file `New-Item -Path "consumer_filtering.py" -ItemType "File"`
+- Jalankan `python consumer_filtering.py`
+
+![image](https://github.com/user-attachments/assets/28fced39-2ecf-4fe9-b345-e696b1d5d3ec)
+
+![image](https://github.com/user-attachments/assets/7cc06fe1-376c-4e69-80f3-7a2cf85404b7)
+
+## 4.  Gabungkan Stream dari Dua Sensor
+- Masuk ke container dan install `kafka-python`
+  ```
+  docker exec -it consumer bash
+  pip install kafka-python
+  ```
+- Jalankan Consumer
+`python consumer_filter.py`
+
+![image](https://github.com/user-attachments/assets/4ff47bf5-443f-4261-86c3-0d1cfb060540)
+
+
