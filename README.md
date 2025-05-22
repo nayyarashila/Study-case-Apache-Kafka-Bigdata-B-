@@ -52,7 +52,7 @@ New-Item -Path "producer_kelembaban.py" -ItemType "File"
    
 ![Screenshot 2025-05-22 202926](https://github.com/user-attachments/assets/cf134b40-2606-4b04-adc4-84bdf9624a61)
 
-* Hasil dengan menjalankan `python producer_kelembaban.py
+* Hasil dengan menjalankan `python producer_kelembaban.py`
 
 ![Screenshot 2025-05-22 204415](https://github.com/user-attachments/assets/7f67fd07-f5d8-46f7-8ad5-866b386cbb9e)
 
