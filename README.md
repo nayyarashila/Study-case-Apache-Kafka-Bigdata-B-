@@ -78,4 +78,6 @@ New-Item -Path "producer_kelembaban.py" -ItemType "File"
 
 ![image](https://github.com/user-attachments/assets/4ff47bf5-443f-4261-86c3-0d1cfb060540)
 
+![image](https://github.com/user-attachments/assets/d5e267fb-b17b-43dd-9b97-9967edfe013f)
+
 
